@@ -1,0 +1,31 @@
+/* App.css */
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.full-page-background {
+  background-image: url('path/to/your/image.jpg'); /* Replace with your image path */
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.navbar-custom {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.navbar-nav .nav-link {
+  color: #ffffff !important;
+}
+
+.navbar-nav .nav-link.active {
+  color: #E6DDF3 !important;
+}
